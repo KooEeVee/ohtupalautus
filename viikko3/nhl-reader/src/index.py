@@ -23,9 +23,11 @@ def main():
         if player_dict["nationality"] == "FIN":
             players.append(player)
 
+    players_sorted = sorted(players, key=lambda player : player.points, reverse=True)
+
     print(f"Players from FIN {date}")
 
-    for player in players:
+    for player in players_sorted:
         print(player)
 
 if __name__ == "__main__":

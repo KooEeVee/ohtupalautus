@@ -1,8 +1,6 @@
 import unittest
-from unittest.mock import Mock, ANY
 from ostoskori import Ostoskori
 from tuote import Tuote
-from ostos import Ostos
 
 class TestOstoskori(unittest.TestCase):
     def setUp(self):
@@ -21,4 +19,13 @@ class TestOstoskori(unittest.TestCase):
         maito = Tuote("Maito", 3)
         self.kori.lisaa_tuote(maito)
         self.assertEqual(self.kori.hinta(), 3)
+
+    def test_kahden_tuotteen_lisaamisen_jalkeen_korissa_kaksi_tavaraa(self):
+        maito = Tuote("Maito", 3)
+        leipa = Tuote("Leipä", 6)
+        self.kori.lisaa_tuote(maito)
+        self.kori.lisaa_tuote(leipa)
+        self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
+    
     

@@ -6,3 +6,5 @@ Jaetaan ympyrä taululla viiteen osaan: aloita, lopeta, jatka, enemmän, vähemm
 
 ## Glad, Sad, Mad
 Taulu jaetaan kolmeen sarakkeeseen: iloinen, surullinen, vihainen. Osallistujat kirjoittavat ylös lyhyitä huomioita edellisestä sprintistä ja ne sijoitetaan eri sarakkeisiin sen perusteella miltä asia tiimiläisestä tuntuu. Samaan aiheeseen liittyvät ryhmitellään. Osallistujat äänestävät mistä aiheista keskustellaan ja lopuksi aiheet käydään läpi järjetyksessä, aloittaen eniten ääniä keränneestä aiheesta. Keskustelun pääfokus on toimissa, joita voidaan toteuttaa seuraavassa sprintissä.
+
+##
